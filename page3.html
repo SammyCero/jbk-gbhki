@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les films de Cristopher Nolan</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Film cards */
+        .films-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+            padding: 20px;
+        }
+
+        .film {
+            text-align: center;
+            max-width: 280px;
+            margin-bottom: 40px;
+        }
+
+        .film h2 {
+            font-size: 1.2rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .film img {
+            width: 250px;
+            height: 375px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 5px solid #333;
+        }
+
+        /* Video container */
+        .video-section {
+            width: 80%;
+            max-width: 900px;
+            margin: 60px auto;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.25);
+        }
+
+        .video-section iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+        }
+
+        @media (max-width: 768px) {
+            .video-section iframe {
+                height: 300px;
+            }
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- Menu -->
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="page2.html">La vie de Cristopher Nolan</a></li>
+            <li><a href="page3.html">Les films de Cristopher Nolan</a></li>
+            <li><a href="page4.html">Prix gagné</a></li>
+            <li><a href="page5.html">Interviews et citations</a></li>
+        </ul>
+    </div>
+
+    <!-- Titre principal -->
+    <h1 style="text-align: center; font-size: 3rem; color: #333; margin: 30px 0;">
+        Les films de Cristopher Nolan
+    </h1>
+
+    <!-- Films -->
+    <div class="films-list">
+
+        <!-- Film 1 -->
+        <div class="film">
+            <h2>Following (1998)</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQebMVo71FdbnLFjzmaOPpx2FjUGloTe-jZZw&s" alt="Following (1998)">
+        </div>
+
+        <!-- Film 2 -->
+        <div class="film">
+            <h2>Memento (2000)</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIMjABAOtGhjZcpqxC4zcVe1r4hfE6gVSdGg&s" alt="Memento (2000)">
+        </div>
+
+        <!-- Film 3 -->
+        <div class="film">
+            <h2>Insomnia (2002)</h2>
+            <img src="https://static0.colliderimages.com/wordpress/wp-content/uploads/2021/12/christopher-nolan-insomnia.jpg" alt="Insomnia (2002)">
+        </div>
+
+        <!-- Film 4 -->
+        <div class="film">
+            <h2>Batman Begins (2005)</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/en/a/af/Batman_Begins_Poster.jpg" alt="Batman Begins (2005)">
+        </div>
+
+        <!-- Film 5 -->
+        <div class="film">
+            <h2>The Prestige (2006)</h2>
+            <img src="https://m.media-amazon.com/images/I/619c+UQZaOL.jpg" alt="The Prestige (2006)">
+        </div>
+
+        <!-- Film 6 -->
+        <div class="film">
+            <h2>The Dark Knight (2008)</h2>
+            <img src="https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_FMjpg_UX1000_.jpg" alt="The Dark Knight (2008)">
+        </div>
+
+        <!-- Film 7 -->
+        <div class="film">
+            <h2>Inception (2010)</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/18/Inception_OST.jpg/250px-Inception_OST.jpg" alt="Inception (2010)">
+        </div>
+
+        <!-- Film 8 -->
+        <div class="film">
+            <h2>The Dark Knight Rises (2012)</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/en/8/83/Dark_knight_rises_poster.jpg" alt="The Dark Knight Rises (2012)">
+        </div>
+
+        <!-- Film 9 -->
+        <div class="film">
+            <h2>Interstellar (2014)</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUEiLroQQ2mWrMOnGQ62cKEV12Xmroo7cuxyUMue9B8lZgUcJHPjK3UxdCZYWUkvjsT8BlP-oR9xtGXVcjNjSjN9sk60mJrA0mM5cBHKj0&s=10" alt="Interstellar (2014)">
+        </div>
+
+        <!-- Film 10 -->
+        <div class="film">
+            <h2>Dunkirk (2017)</h2>
+            <img src="https://m.media-amazon.com/images/M/MV5BMTE0Mjg4MTMwMDZeQTJeQWpwZ15BbWU4MDAwMDQ1ODAy._V1_FMjpg_UX1000_.jpg" alt="Dunkirk (2017)">
+        </div>
+
+    </div>
+
+    <!-- Video Section -->
+    <div class="video-section">
+        <iframe 
+            src="https://geo.dailymotion.com/player.html?video=x9sl4no"
+            allowfullscreen
+            title="Dailymotion Video Player"
+            allow="web-share">
+        </iframe>
+    </div>
+
+</body>
+</html>
